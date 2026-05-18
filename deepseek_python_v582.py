@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-PHOENIX REAL v5.8.2 - CORREÇÕES DE ESTADO E RANGE TRADING MODE
+PHOENIX REAL v5.8.3 - CORREÇÕES DE ESTADO E RANGE TRADING MODE
 - Correção: salvamento de estado após atualização das flags de posição
 - Aumento do mínimo de candles para ADX (30)
 - Validação de notional mínimo em vendas
@@ -2049,7 +2049,7 @@ def thread_visual():
             rsi_tag = f"{Fore.GREEN}ON (limite {cfg_rsi_max:.0f})"
             vol_tag = f"{Fore.GREEN}ON" if cfg_vol_on else f"{Fore.RED}OFF"
             cb_tag  = f"{Fore.GREEN}ON" if cfg_cb_on else f"{Fore.RED}OFF"
-            print(f"{Fore.CYAN}🐦‍🔥 PHOENIX REAL v5.8.2 (RANGE MODE) {Fore.WHITE}| UPTIME: {uptime}")
+            print(f"{Fore.CYAN}🐦‍🔥 PHOENIX REAL v5.8.3 (RANGE MODE) {Fore.WHITE}| UPTIME: {uptime}")
             print(f"{Fore.YELLOW}{'='*80}")
             if s["circuit_breaker"]:
                 print(f"{Fore.RED}  ⚡ CIRCUIT BREAKER ATIVO — Entradas pausadas")
@@ -2183,7 +2183,7 @@ def acionar_menu(signum, frame):
     menu_ativo = True
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"{Fore.MAGENTA}╔══════════════════════════════════════╗")
-    print(f"{Fore.MAGENTA}║    MENU DE CONTROLE PHOENIX v5.8.2   ║")
+    print(f"{Fore.MAGENTA}║    MENU DE CONTROLE PHOENIX v5.8.3   ║")
     print(f"{Fore.MAGENTA}╠══════════════════════════════════════╣")
     print(f"{Fore.WHITE}║ 1. VOLTAR AO MONITORAMENTO           ║")
     print(f"{Fore.RED}║ 2. ENCERRAR (DESLIGAR BOT)           ║")
