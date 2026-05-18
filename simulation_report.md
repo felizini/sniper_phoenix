@@ -1,16 +1,11 @@
-# Simulação AXS/USDT (5m)
-
-- Período: 2026-05-18 00:00:00 até 2026-05-18 14:35:00
+# Simulação XRP/USDT (5m)
+- Candles analisados: 179
+- Trades: 1 (wins: 1, losses: 0)
 - Capital inicial: 20.00 USDT
-- Capital final: 20.4823 USDT
-- PnL: 0.4823 USDT (2.41%)
-- Total de eventos: 6
+- Capital final: 20.0092 USDT
+- PnL líquido: 0.0092 USDT (0.05%)
 
-| Data/Hora | Evento | Preço | Qtd | Caixa | PnL evento |
-|---|---:|---:|---:|---:|---:|
-| 2026-05-18 01:40:00 | BUY_BASE | 1.148000 | 8.704268 | 10.0000 | 0.0000 |
-| 2026-05-18 03:05:00 | BUY_SO | 1.135075 | 8.803381 | 0.0000 | 0.0000 |
-| 2026-05-18 09:55:00 | SELL_TRAIL | 1.156000 | 17.507649 | 20.2237 | 0.2237 |
-| 2026-05-18 10:55:00 | BUY_BASE | 1.148000 | 8.704268 | 10.2237 | 0.0000 |
-| 2026-05-18 11:15:00 | BUY_SO | 1.135075 | 8.803381 | 0.2237 | 0.0000 |
-| 2026-05-18 14:35:00 | SELL_EOD | 1.158000 | 17.507649 | 20.4823 | 0.2587 |
+## Operações
+| # | Entrada | Saída | Preço médio | Preço saída | Custo | Receita líquida | PnL | Motivo | SO |
+|---|---|---|---:|---:|---:|---:|---:|---|---:|
+| 1 | 2026-05-18 01:20:00 | 2026-05-18 14:50:00 | 1.380429 | 1.382100 | 20.0000 | 20.0092 | 0.0092 | FORCED_EOD | 1 |
